@@ -9,6 +9,7 @@ import net.sf.json.JSONNull
 
 def dirpath = "./"
 
+// an array of maps with title, file and query xml
 def searches = [
 	[title:"Saltspring - residential 100K - 400K",
 		file: "ss-res.xml",
@@ -36,7 +37,7 @@ def channel_str = '''<?xml version="1.0"?>
 <rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" version="2.0">
     <channel>
         <title>MLS listings for $FEEDTITLE</title>
-        <link>http://www.gtrlabs.org</link>
+        <link>http://www.mydomain.org</link>
         <description>MLS listings for $FEEDTITLE</description>
         <lastBuildDate>$DATE</lastBuildDate>
         <language>en-US</language>
