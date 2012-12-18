@@ -1,0 +1,8 @@
+*.class
+*.xml
+result.txt
+/docs
+/.classpath
+/.launch
+/.project
+/.settings
